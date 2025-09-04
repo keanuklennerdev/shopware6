@@ -11,6 +11,6 @@
 - ``` docker compose stop ```
 - ``` docker compose up -d ```
 - ``` docker exec -it <container_name> bash ```
-- ``` sudo chown www-data:www-data /var/www/html -R```
+- ``` sudo chown www-data:www-data /var/www/html -R ```
 - ``` bin/console theme:change ```
 - ``` bin/console theme:compile ```
