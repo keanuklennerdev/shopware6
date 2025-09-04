@@ -1,0 +1,14 @@
+services:
+    shopware:
+        image: dockware/dev:latest
+        container_name: shopware
+        ports:
+            - "80:80"
+        networks:
+            - web
+        volumes:
+            - "./src:/var/www/html/"
+
+networks:
+  web:
+    external: false
